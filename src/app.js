@@ -11,6 +11,7 @@ function convertirDistancia(valor, desde, hacia) {
     cm: 0.01,
     m: 1,
     km: 1000,
+    mi: 1609.34
   };
 
   const u1 = desde.toLowerCase();

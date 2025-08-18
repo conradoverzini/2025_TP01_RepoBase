@@ -7,12 +7,25 @@ https://github.com/ingsoft3ucc/2025_TP01_RepoBase
 
 Luego configuramos nuestra identidad, con los siguientes comandos:
 
-git config user.name "Conrado Verzini"
-git config user.email "2215019@ucc.edu.ar"
+- git config user.name "Conrado Verzini"
+- git config user.email "2215019@ucc.edu.ar"
 
 Esto asegura la trazabilidad dando a conocer el autor de cada cambio.
 
 ## Desarrollar una funcionalidad y abrir una PR
+
+#### Modelo de ramas usado: GitHub Flow
+
+Usamos GitHub Flow como estrategia de trabajo, un modelo simple y práctico basado en una única rama principal (main) que siempre se mantiene estable.
+Cada nueva funcionalidad o corrección se desarrolla en una rama separada, creada desde main, y se integra después mediante una PR, permitiendo revisión y validación antes del merge.
+
+#### Estructura de ramas usada:
+
+- main: rama principal, estable y lista para producción.
+- feature/...: ramas para el desarrollo de nuevas funcionalidades.
+- hotfix/...: ramas temporales para aplicar correcciones urgentes a producción.
+
+Este flujo permite mantener un historial limpio y controlado, favoreciendo la colaboración y la trazabilidad de los cambios.
 
 Para desarrollar una funcionalidad creamos una rama separada de main, haciendo lo siguiente:
 
